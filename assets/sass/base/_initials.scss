@@ -1,0 +1,36 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: $FONT3;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background: rgba(19, 69, 119, 0.116);
+  width: 100%;
+}
+
+* a {
+  color: $color-gray-dark;
+  text-decoration: none;
+}
+
+* a:hover {
+  color: $color-text;
+}
+
+@media screen and (min-width: $--lg) {
+  section {
+    padding: 80px 120px;
+  }
+}
